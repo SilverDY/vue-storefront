@@ -1,0 +1,26 @@
+0 silly input [ 'tailwindcss' ]
+1 silly flags { _: [ 'add' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   dev: true,
+1 silly flags   D: true,
+1 silly flags   scope: 'one',
+1 silly flags   args: [ 'tailwindcss' ] }
+2 verbose rootPath C:\Users\SilverDY\GitHub\vue-storefront
+3 info version 2.11.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync C:\Users\SilverDY\GitHub\vue-storefront\VERSION
+7 info versioning independent
+8 info scope one
+9 error EPACKAGES Errored while collecting packages and package graph
+10 error Error: No packages found that match scope 'one'
+10 error     at Function.filterPackages (C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\lib\PackageUtilities.js:252:17)
+10 error     at AddCommand.runPreparations (C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\lib\Command.js:333:60)
+10 error     at C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\lib\Command.js:209:18
+10 error     at new Promise (<anonymous>)
+10 error     at AddCommand.run (C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\lib\Command.js:193:14)
+10 error     at Object.handler (C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\lib\commands\AddCommand.js:79:14)
+10 error     at Object.self.runCommand (C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\node_modules\yargs\lib\command.js:233:22)
+10 error     at Object.Yargs.self._parseArgs (C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\node_modules\yargs\yargs.js:990:30)
+10 error     at Object.Yargs.self.parse (C:\Users\SilverDY\GitHub\vue-storefront\node_modules\lerna\node_modules\yargs\yargs.js:532:23)

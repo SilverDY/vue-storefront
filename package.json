@@ -4,7 +4,7 @@
   "private": true,
   "engineStrict": true,
   "engines": {
-    "node": ">=8.x <10.x"
+    "node": ">=8.x"
   },
   "repository": {
     "type": "git",
